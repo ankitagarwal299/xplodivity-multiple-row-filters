@@ -1,0 +1,30 @@
+.top-filters{
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ margin: 10px;
+}
+
+.capsule{
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.capsule.active{
+  background-color: grey;
+}
+
+.capsule-second{
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 0 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 100px;
+}
